@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift - Fan Club Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="taylor swift 1.jfif" alt="Taylor Swift Logo" class="logo">
+            <h1>Join the Fan Club</h1>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="formulir.html">Form</a></li>
+                <li><a href="tabel.html">Table</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <section>
+                <h2>Fan Club Registration Form</h2>
+                <form action="submit.php" method="GET">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required><br>
+
+                    <label>Favorite Album:</label><br>
+                    <input type="radio" id="1989" name="album" value="1989" required>
+                    <label for="1989">1989</label><br>
+                    <input type="radio" id="fearless" name="album" value="fearless">
+                    <label for="fearless">Fearless</label><br>
+
+                    <label for="newsletter">Subscribe to Newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Taylor Swift Fansite</p>
+        </footer>
+    </div>
+</body>
+</html>
