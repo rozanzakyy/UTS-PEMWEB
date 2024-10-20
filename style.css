@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffcccb; /* Warna header */
+    text-align: center;
+    padding: 20px;
+}
+
+header img.logo {
+    width: 100px; /* Ukuran logo */
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    color: #333; /* Warna teks */
+    font-size: 2rem; /* Ukuran font untuk judul */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f4f4f4; /* Warna sidebar */
+    padding: 15px;
+    width: 100%;
+    display: flex; /* Menjadikan sidebar fleksibel */
+    justify-content: center; /* Mengatur konten di tengah */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Menjadikan daftar horizontal */
+    gap: 20px; /* Jarak antar item daftar */
+}
+
+.sidebar ul li {
+    margin-bottom: 0; /* Menghilangkan margin bawah untuk daftar horizontal */
+}
+
+.sidebar ul li a {
+    text-decoration: none; /* Tanpa garis bawah pada tautan */
+    color: #000; /* Warna tautan */
+    font-weight: bold; /* Teks tebal untuk tautan */
+    transition: color 0.3s ease; /* Efek transisi warna */
+}
+
+.sidebar ul li a:hover {
+    color: #ff6f61; /* Warna saat hover */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffcccb; /* Warna header */
+    text-align: center;
+    padding: 20px;
+}
+
+header img.logo {
+    width: 100px; /* Ukuran logo */
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    color: #333; /* Warna teks */
+    font-size: 2rem; /* Ukuran font untuk judul */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f4f4f4; /* Warna sidebar */
+    padding: 15px;
+    width: 100%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none; /* Tanpa garis bawah pada tautan */
+    color: #000; /* Warna tautan */
+    font-weight: bold; /* Teks tebal untuk tautan */
+    transition: color 0.3s ease; /* Efek transisi warna */
+}
+
+.sidebar ul li a:hover {
+    color: #ff6f61; /* Warna saat hover */
+}
+
+/* Main Content */
+.content {
+    flex: 2;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 1.8rem; /* Ukuran font untuk judul konten */
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff; /* Warna latar belakang formulir */
+    padding: 20px;
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+label {
+    font-weight: bold; /* Teks label tebal */
+    margin-top: 10px; /* Jarak atas */
+    display: block; /* Memastikan label mengambil seluruh lebar */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: 100%; /* Lebar input 100% */
+    padding: 10px; /* Padding di dalam input */
+    margin: 5px 0 15px 0; /* Jarak antar input */
+    border: 1px solid #ccc; /* Batas */
+    border-radius: 4px; /* Sudut membulat */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 10px 0; /* Jarak untuk checkbox dan radio */
+}
+
+input[type="submit"] {
+    background-color: #ff6f61; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none; /* Tanpa batas */
+    padding: 10px 15px; /* Padding tombol */
+    border-radius: 4px; /* Sudut membulat tombol */
+    cursor: pointer; /* Kursor pointer saat hover */
+    transition: background-color 0.3s ease; /* Efek transisi warna */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4c40; /* Warna saat hover pada tombol */
+}
+
+}
+/* Tabel Styles */
+.table-container {
+    max-height: 400px; /* Atur tinggi maksimum tabel */
+    overflow-y: auto; /* Menambahkan scrollbar vertikal jika konten melebihi tinggi */
+    border: 1px solid #ccc; /* Batas tabel */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan jarak antar batas sel */
+}
+
+th, td {
+    padding: 10px; /* Padding untuk sel */
+    text-align: left; /* Rata kiri untuk teks */
+}
+
+/* Styling untuk baris genap dan ganjil */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang untuk baris genap */
+}
+
+tr:nth-child(odd) {
+    background-color: #fff; /* Warna latar belakang untuk baris ganjil */
+}
+
+/* Efek hover pada baris */
+tr:hover {
+    background-color: #ffeb3b; /* Warna saat baris di hover */
+}
+
+/* Sticky Header */
+thead {
+    position: sticky;
+    top: 0; /* Posisi atas untuk header */
+    background-color: #ffcccb; /* Warna latar belakang header */
+    z-index: 10; /* Agar header di atas isi tabel */
+}
